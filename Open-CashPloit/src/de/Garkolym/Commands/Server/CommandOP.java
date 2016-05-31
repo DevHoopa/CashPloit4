@@ -53,6 +53,8 @@ public class CommandOP extends Command {
 			} catch (Exception e) {
 				p.sendMessage(Start.instance.prefix + ChatColor.RED + "Dieser Spieler ist nicht online!");
 			}
+		}else {
+			p.sendMessage(Start.instance.prefix + ChatColor.RED + "Du hast eine falsche Syntax eingegeben!");
 		}
 	}
 
